@@ -345,6 +345,7 @@ def parse(tokens: list[tuple[str, Any]]) -> Any:
 # Tree formatting
 
 
+
 def tree_to_string(node: Any) -> str:
     """
     Convert a parse tree into the required prefix-style tree format.
@@ -476,6 +477,7 @@ def write_output_file(output_path: str, results: list[dict]) -> None:
 
 
 # Required interface (updated)
+
 
 
 def evaluate_file(input_path: str) -> list[dict]:
