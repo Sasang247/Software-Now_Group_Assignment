@@ -443,7 +443,7 @@ def evaluate_expression(expression: str) -> dict:
         }
 
 
-# Output writing
+# Output writing 
 
 
 def result_to_output_block(record: dict) -> str:
@@ -475,7 +475,7 @@ def write_output_file(output_path: str, results: list[dict]) -> None:
 
 
 
-# Required interface
+# Required interface (updated)
 
 
 def evaluate_file(input_path: str) -> list[dict]:
