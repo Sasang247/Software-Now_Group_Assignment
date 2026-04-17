@@ -1,0 +1,9 @@
+Input: 3 + 5
+Tree: (+ 3 5)
+Tokens: [NUM:3] [OP:+] [NUM:5] [END]
+Result: 8
+
+Input: 2(3+4)
+Tree: (* 2 (+ 3 4))
+Tokens: [NUM:2] [OP:*] [LPAREN:(] [NUM:3] [OP:+] [NUM:4] [RPAREN:)] [END]
+Result: 14
